@@ -2,7 +2,7 @@ import React from 'react';
 import {
   faCog,
   faKeyboard,
-  faShare
+  faDownload
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -50,7 +50,7 @@ class Header extends React.Component {
           title="Export"
           onClick={ props.handleExportToggle }
         >
-          <FontAwesomeIcon icon={ faShare } />
+          <FontAwesomeIcon icon={ faDownload } />
         </button>
       </div>
     </>);
